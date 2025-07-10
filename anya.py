@@ -12,13 +12,13 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 import openai
 
 # === НАСТРОЙКИ ===
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+OPENAI_API_KEY=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
+TELEGRAM_BOT_TOKEN=7535632107:AAFioxxIYY6uDt9zii0cYchxJIsGBxAJJfY 
 MODEL = "gpt-4o"
 MEMORY_FILE = "memory.json"
 CHAT_IDS_FILE = "chat_ids.json"
 
-client = openai.OpenAI(api_key=OPENAI_API_KEY)
+client = openai.OpenAI(api_key=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)
 
 # === Настройки поведения ===
 NICKNAMES = ["Лешенька", "Лёша", "Лешка", "котик", "малыш", "зайчик", "моё сердце", "мой свет", "родной", "любимый"]
